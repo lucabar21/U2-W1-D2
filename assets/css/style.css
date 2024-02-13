@@ -69,6 +69,7 @@ header {
 }
 .buttons button:hover {
   box-shadow: inset 0px 10px 50px 0px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
 }
 
 /* FAS-FA-TAG SETTINGS */
@@ -78,15 +79,26 @@ aside div {
 }
 .fa-tag {
   font-size: 3rem;
-  opacity: 40%;
+  opacity: 30%;
   position: absolute;
   top: 5px;
   right: 5px;
 }
-@media screen and (min-width: 699px) {
+
+@media screen and (min-width: 700px) {
   .calendar {
+    margin-bottom: 750px;
   }
   .add {
+    margin-bottom: 750px;
+  }
+}
+@media screen and (min-width: 1199px) {
+  .calendar {
+    margin-bottom: 850px;
+  }
+  .add {
+    margin-bottom: 850px;
   }
 }
 
